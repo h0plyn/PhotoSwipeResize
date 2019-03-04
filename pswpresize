@@ -1,0 +1,106 @@
+/*
+ * Image Zoom
+ */
+
+
+.content img.image-zoom:active {
+  	opacity: 1;
+    
+}
+
+
+.image-zoom-background {
+	background: rgba(255, 255, 255,1);
+}
+
+.pswp__scroll-wrap {
+	transform:scale(.80);
+    
+}
+
+
+/**
+ * Image Zoom Navigation Arrows 
+ */
+
+.image-zoom-navigation .left-arrow,
+.image-zoom-navigation .right-arrow {
+    /* Change height/width together to scale */
+    height: 36px;
+    width: 36px;
+}
+
+.image-zoom-navigation .left-arrow .inner-color,
+.image-zoom-navigation .right-arrow .inner-color {
+    fill: #fff;
+}
+
+.image-zoom-navigation .left-arrow .outer-color,
+.image-zoom-navigation .right-arrow .outer-color {
+    fill: #000;
+    opacity: 0.2;
+}
+
+
+.image-zoom-navigation .close-button {  
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Change height/width together to scale */
+    width: 36px;
+    height: 36px;
+}
+
+.image-zoom-navigation .close-button .inner-color {
+    fill: #fff;
+}
+
+.image-zoom-navigation .close-button .outer-color {
+    fill: #000;
+    opacity: 0.2;
+}
+
+/** 
+ * Image Gallery Navigation Arrows 
+ */
+ 
+.image-gallery-navigation .left-arrow,
+.image-gallery-navigation .right-arrow {
+    /* Change height/width together to scale */
+    height: 56px;
+    width: 56px;
+}
+
+.image-gallery-navigation .left-arrow .inner-color,
+.image-gallery-navigation .right-arrow .inner-color {
+    fill: #fff;
+}
+
+.image-gallery-navigation .left-arrow .outer-color,
+.image-gallery-navigation .right-arrow .outer-color {
+    fill: #000;
+    opacity: 0.2;
+}
+
+/**
+ * Wallpaper Backdrop Navigation Arrows 
+ */
+
+.wallpaper-navigation .left-arrow,
+.wallpaper-navigation .right-arrow {
+   /* Change height/width together to scale */
+   width: 56px;
+   height: 56px;
+}
+
+.wallpaper-navigation .left-arrow .inner-color,
+.wallpaper-navigation .right-arrow .inner-color {
+   fill: #fff;
+}
+
+.wallpaper-navigation .left-arrow .outer-color,
+.wallpaper-navigation .right-arrow .outer-color {
+    fill: #000;
+    opacity: 0.2;
+}
